@@ -19,3 +19,13 @@ function inc(n) {
   number++
   return number
 }
+
+function dec(n) {
+  var number = n
+  number--
+  return number
+}
+
+function makeInt(n) {
+  return parseInt(n,10)
+}
